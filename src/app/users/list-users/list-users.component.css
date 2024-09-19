@@ -1,0 +1,35 @@
+.user-list-card {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-header-cell, .mat-cell {
+  text-align: center;
+}
+
+button {
+  margin: 0 4px;
+}
+
+.btn-action {
+  margin-right: 10px;
+  padding: 5px 15px;
+  font-size: 0.875rem;
+  width: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-action:hover {
+  opacity: 0.8;
+}
+
+.btn-add {
+  margin-top: 20px;
+  padding: 5px 15px;
+  font-size: 0.875rem;
+  width: 100px;
+  font-weight: bold;
+}
