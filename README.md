@@ -1,31 +1,47 @@
-<<<<<<< HEAD
-# Dashedboard-app
-=======
-# DashboardApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+# Angular Dashboard Application
 
-## Development server
+## How to Run the Application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 1. Install Angular CLI (if not already installed)
 
-## Code scaffolding
+Before running the application, make sure you have Angular CLI installed globally. If it’s not installed, you can install it with the following command:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install -g @angular/cli
+```
 
-## Build
+### 2. Install Project Dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+After cloning or downloading the project, navigate to the project directory and install the necessary dependencies by running:
 
-## Running unit tests
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 3. Run the Application
 
-## Running end-to-end tests
+To start the Angular development server, run the following command:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng serve
+```
 
-## Further help
+This will compile and serve the application. By default, it will be available at `http://localhost:4200/`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
->>>>>>> 9b5dd5cc017417da3dfff8eff00f44baf9733783
+### 4. Build for Production
+
+If you want to build the application for production, use this command:
+
+```bash
+ng build --prod
+```
+
+This will generate the production-ready files in the `dist/` folder.
+
+---
+
+### Additional Information
+
+- **Angular Version**: 16+
+- **Node Version**: 16.x or higher required
